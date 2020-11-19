@@ -1,0 +1,25 @@
+		BANCO DE DADOS
+
+CREATE DATABASE bancosefaz;
+
+USE bancosefaz;
+
+CREATE TABLE usuario (
+id INT(11) PRIMARY DEY AUTO_INCREMENT,
+nome VARCHAR(200) NOT NULL,
+email VARCHAR(200) NOT NULL,
+senha VARCHAR(50) NOT NULL,
+telefone VARCHAR(30)NOT NULL
+);
+
+
+	INSERINDO DADOS NA TABELA
+
+INSERT INTO usuario (nome, email, senha, telefone) 
+VALUES ("Wallace", "wallace.R@gmail.com", "123", "81987654432");
+
+PARA LOGIN E SENHA DO PRIMEIRO ACESSO:
+
+LOGIN: Wallace
+SENHA: 123
+
